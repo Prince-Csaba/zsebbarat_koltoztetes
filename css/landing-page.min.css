@@ -1,0 +1,262 @@
+/*!
+ * Start Bootstrap - Landing Page v5.0.9 (https://startbootstrap.com/theme/landing-page)
+ * Copyright 2013-2020 Start Bootstrap
+ * Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-landing-page/blob/master/LICENSE)
+ */
+body {
+  font-family: 'Roboto', 'Open Sans', Helvetica, Arial, sans-serif;
+  max-width: 1720px;
+  margin: auto;
+  background-color: #eee;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: Lato, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: 700
+}
+
+#cta:focus,
+#cta:active,
+#cta:hover {
+  text-decoration: none;
+  color: #fff;
+}
+
+header.masthead {
+  position: relative;
+  background-color: #343a40;
+  background: url(../img/bg-img.webp) no-repeat center center;
+  background-size: cover;
+  padding-top: 8rem;
+  padding-bottom: 8rem
+}
+
+header.masthead .overlay {
+  position: absolute;
+  background-color: #212529;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  opacity: .3
+}
+
+header.masthead h1 {
+  font-size: 2rem
+}
+
+@media (min-width:768px) {
+  header.masthead {
+    padding-top: 12rem;
+    padding-bottom: 12rem
+  }
+
+  header.masthead h1 {
+    font-size: 3rem
+  }
+}
+
+.showcase .showcase-text {
+  padding: 3rem
+}
+
+.showcase .showcase-img {
+  min-height: 30rem;
+  background-size: cover
+}
+
+.showcase .showcase-text li {
+  font-size: 1.25rem;
+  font-weight: 300;
+}
+
+@media (min-width:768px) {
+  .showcase .showcase-text {
+    padding: 7rem
+  }
+
+  button.main,
+  a.main {
+    margin: 5px;
+  }
+}
+
+.features-icons {
+  padding-top: 7rem;
+  padding-bottom: 7rem
+}
+
+.features-icons .features-icons-item {
+  max-width: 20rem
+}
+
+.features-icons .features-icons-item .features-icons-icon {
+  height: 7rem
+}
+
+.features-icons .features-icons-item .features-icons-icon i {
+  font-size: 4.5rem
+}
+
+.features-icons .features-icons-item:hover .features-icons-icon i {
+  font-size: 5rem
+}
+
+.navbar {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.navbar-toggler:focus {
+  outline: none;
+}
+
+button.main,
+a.main {
+  margin: 20px 0px;
+}
+
+button#mainForm {
+  color: #fff;
+  border-color: #fff;
+}
+
+#mainForm:hover {
+  border-color: #28a745;
+}
+
+#collapseExample {
+  margin: 50px auto;
+  max-width: 80%;
+}
+
+#stickyButton {
+  border-radius: 50px;
+  width: 50px;
+  height: 50px;
+  /*  position: fixed;
+  bottom: 30px;
+  right: 30px; */
+  z-index: 5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-color: #fff;
+
+  position: sticky;
+  left: 80vw;
+  top: 80vh;
+}
+
+#stickyButton i {
+  color: #fff;
+}
+
+@media (min-width: 768px) {
+  #stickyButton {
+    display: none;
+  }
+}
+
+.col-lg-4 button,
+.col-lg-4 a {
+  margin: 5px 0;
+}
+
+.modal li {
+  font-size: 1rem;
+}
+
+.modalButton {
+  margin-top: 10px;
+}
+
+#formModal {
+  color: black;
+}
+
+.twoWorkers {
+  padding: 0 2.5rem;
+}
+
+.threeWorkers {
+  padding: 0 1.1rem;
+}
+
+@media (min-width: 992px) {
+
+  .twoWorkers {
+    padding: 0 1.5rem;
+  }
+
+  .threeWorkers {
+    padding: 0 0.5rem;
+  }
+
+}
+
+.testimonials {
+  padding-top: 7rem;
+  padding-bottom: 7rem
+}
+
+.testimonials .testimonial-item {
+  max-width: 18rem
+}
+
+.testimonials .testimonial-item img {
+  max-height: 20rem;
+  box-shadow: 0 5px 5px 0 #adb5bd
+}
+
+.img-fluid {
+  max-height: 220px;
+  width: 270px;
+}
+
+
+.call-to-action {
+  position: relative;
+  background-color: #343a40;
+  background: url(../img/bg-img.webp) no-repeat;
+  background-position: center 230px;
+  background-size: cover;
+  background-attachment: fixed;
+  padding-top: 7rem;
+  padding-bottom: 7rem;
+}
+
+@media (min-width: 1720px) {
+  .call-to-action {
+    max-width: 1720px;
+  }
+}
+
+
+.call-to-action .overlay {
+  position: absolute;
+  background-color: #212529;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  opacity: .3
+}
+
+footer.footer {
+  padding-top: 4rem;
+  padding-bottom: 4rem
+}
+
+ul li a {
+  color: #28a745;
+}
+
+ul li a:hover {
+  color: #28a745;
+}
