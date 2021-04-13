@@ -23,6 +23,7 @@ HTML 5
 CSS 3
 Bootstrap 4.6
 Font-awesome
+A bit of Scss
 
 ## Getting started
 
