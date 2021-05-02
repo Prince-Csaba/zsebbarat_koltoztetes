@@ -116,6 +116,30 @@ header.masthead h1 {
   outline: none;
 }
 
+.darkgreen {
+  background-color: #448539 !important;
+  border-color: #448539 !important;
+}
+
+.textdarkgreen {
+  color: #448539 !important;
+}
+
+.btn.btn-outline-succes {
+  background-color: white !important;
+
+}
+
+.greenborder {
+  border-color: #448539 !important;
+}
+
+.btn-outline-succes :hover {
+  background-color: #448539 !important;
+  border-color: #448539 !important;
+  color: white !important;
+}
+
 button.main,
 a.main {
   margin: 20px 0px;
@@ -259,4 +283,19 @@ ul li a {
 
 ul li a:hover {
   color: #28a745;
+}
+
+#loszallitas {
+  background-image: url('../img/loszallitas.webp');
+}
+
+@media (max-width: 768px) {
+  #loszallitas {
+    background-image: url('../img/loszallitas2.jpg');
+  }
+}
+
+#bepakolva {
+  background-position: center;
+  background-repeat: no-repeat;
 }
