@@ -299,3 +299,10 @@ ul li a:hover {
   background-position: center;
   background-repeat: no-repeat;
 }
+
+.numbox {
+  height: 50px;
+  width: 90%;
+  margin: 5px 0;
+  color: white;
+}
