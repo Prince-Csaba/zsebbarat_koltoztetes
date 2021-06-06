@@ -225,6 +225,10 @@ button#mainForm {
 
 }
 
+.szolgaltatasok {
+  font-size: 1rem !important;
+}
+
 .testimonials {
   padding-top: 7rem;
   padding-bottom: 7rem
