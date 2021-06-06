@@ -125,18 +125,19 @@ header.masthead h1 {
   color: #448539 !important;
 }
 
-.btn.btn-outline-succes {
-  background-color: white !important;
-
-}
-
 .greenborder {
   border-color: #448539 !important;
 }
 
-.btn-outline-succes :hover {
-  background-color: #448539 !important;
-  border-color: #448539 !important;
+.darkgreen-outline {
+  background-color: transparent !important;
+  border-color: #274c20 !important;
+  color: #274c20 !important;
+}
+
+.btn.btn-outline-success.modalButton.darkgreen-outline:hover {
+  background-color: #274c20 !important;
+  border-color: #274c20 !important;
   color: white !important;
 }
 
