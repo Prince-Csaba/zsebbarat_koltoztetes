@@ -75,11 +75,11 @@ header.masthead h1 {
   font-weight: 300;
 }
 
-/* ezért csúszik szét a szöveg */
+/* ezért csúszik szét a szolgáltatásaink szöveg */
 
 @media (min-width:768px) {
   .showcase .showcase-text {
-    padding: 7rem
+    padding: 7rem;
   }
 
   button.main,
