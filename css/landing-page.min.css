@@ -79,7 +79,7 @@ header.masthead h1 {
 
 @media (min-width:768px) {
   .showcase .showcase-text {
-    padding: 7rem;
+    padding: 4rem;
   }
 
   button.main,
@@ -232,24 +232,24 @@ button#mainForm {
 }
 
 .testimonials {
-  padding-top: 7rem;
-  padding-bottom: 7rem
+  padding-top: 5rem;
+  padding-bottom: 5rem
 }
 
 .testimonials .testimonial-item {
-  max-width: 18rem
+  max-width: 20rem
 }
 
 .testimonials .testimonial-item img {
-  max-height: 20rem;
+  max-height: 50rem;
   box-shadow: 0 5px 5px 0 #adb5bd
 }
 
 .img-fluid {
   max-height: 220px;
-  width: 270px;
+  /* width: 270px;
+ */
 }
-
 
 .call-to-action {
   position: relative;
