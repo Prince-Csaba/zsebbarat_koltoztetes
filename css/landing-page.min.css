@@ -315,6 +315,13 @@ ul li a:hover {
   color: #28a745;
 }
 
+@media (max-width: 768px) {
+  .liMobile {
+    min-width: 48px !important;
+    min-height: 48px !important;
+  }
+}
+
 #loszallitas {
   background-image: url('../img/loszallitas.webp');
 }
