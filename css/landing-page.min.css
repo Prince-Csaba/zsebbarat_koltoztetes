@@ -114,6 +114,12 @@ header.masthead h1 {
   padding-right: 20px;
 }
 
+.flags img {
+  height: 32px;
+  border-radius: 50%;
+  margin: auto 10px;
+}
+
 .navbar-toggler:focus {
   outline: none;
 }
