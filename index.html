@@ -56,10 +56,19 @@
         <a class="navbar-brand" href="#araink">Áraink</a>
       </li>
       <li class="nav-item">
+        <a class="navbar-brand" href="#szolgaltatasok">Szolgáltatások</a>
+      </li>
+      <li class="nav-item">
         <a class="navbar-brand" href="#rolunk">Rólunk</a>
       </li>
       <li class="nav-item">
+        <a class="navbar-brand" href="#tippek">Hasznos tippek</a>
+      </li>
+      <li class="nav-item">
         <a class="navbar-brand" href="#velemenyek">Visszajelzések</a>
+      </li>
+      <li class="nav-item">
+        <a class="navbar-brand" href="#footer">Elérhetőségek</a>
       </li>
     </ul>
   </div>
@@ -158,7 +167,7 @@
           <div class="col-xs-12 col-lg-6">
             <button type="button" class="btn btn-block btn-lg btn-outline-success main" id="mainForm"
               data-toggle="modal" data-target="#formModal">
-              Inkább e-mailben kérek árajánlatot (2 perc)
+              Inkább üzenetben kérek árajánlatot (2 perc)
             </button>
           </div>
         </div>
@@ -170,7 +179,34 @@
 <!-- Contact form modal Modal -->
 <div class="modal fade" id="formModal" tabindex="-1" role="dialog" aria-labelledby="formModalLabel" aria-hidden="true">
   <div class="modal-dialog" role="document">
+    <!--New version-->
     <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="formModalLabel">Árajánlat kérés üzenetben</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        Árajánlatkérő űrlapunk fejlesztés alatt!
+        Addigis hívjon bátran, írjon nekünk Facebook Messengeren, vagy írjon e-mailt az
+        <a href="mailto:info@zsebbaratkoltoztetes.hu">info@zsebbaratkoltoztetes.hu</a> címre.
+        Türelmét és megkeresését köszönjük!
+      </div>
+      <div class="modal-footer">
+          <a class="btn btn-success fbbg" href="https://m.me/100063941747157">
+            <i class="fa-brands fa-facebook-messenger fa-fw" style="font-size: 20px;"></i>
+            Facebook Messenger
+          </a>
+        <a class="btn btn-success darkgreen" href="tel:+36208016804">
+          <i class="fas fa-phone fa-fw"></i>
+          +36208016804
+        </a>
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Bezár</button>
+      </div>
+    </div>
+    <!--Old version-->
+<!--     <div class="modal-content">
       <div class="modal-header">
         <h5 class="modal-title" id="formModalLabel">Árajánlat kérés e-mailben</h5>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
@@ -190,7 +226,8 @@
         </a>
         <button type="button" class="btn btn-secondary" data-dismiss="modal">Bezár</button>
       </div>
-    </div>
+    </div> -->
+
   </div>
 </div>
 
@@ -379,7 +416,7 @@
 </section>
 
 <!-- Image Showcases -->
-<section class="showcase" id="rolunk">
+<section class="showcase">
   <div class="container-fluid p-0">
     <!--       <div class="row no-gutters">
         <div class="col-lg-6 order-lg-2 text-white showcase-img" style="background-image: url('../img/bepakolva2.webp');
@@ -405,7 +442,7 @@
   </div>
 
   <!--Szolgáltatásaink-->
-  <div class="row no-gutters">
+  <div class="row no-gutters" id="szolgaltatasok">
     <div class="col-lg-6 text-white showcase-img" style="
               background-image: url(../img/szolgaltatasaink.webp);
             "></div>
@@ -466,7 +503,7 @@
   </div>
 
   <!--Tanácsok-->
-  <div class="row no-gutters">
+  <div class="row no-gutters" id="tippek">
     <div class="col-lg-6 text-white showcase-img" style="
                   background-image: url(../img/bepakolva-3.webp);
                   
@@ -518,7 +555,7 @@
   </div>
 
   <!--Csapatunk-->
-  <div class="row no-gutters">
+  <div class="row no-gutters" id="rolunk">
     <div class="col-lg-6 order-lg-2 text-white showcase-img" style="background-image: url('../img/csapat.webp')">
     </div>
     <div class="col-lg-6 order-lg-1 my-auto showcase-text">
@@ -639,7 +676,7 @@
 </section>
 
 <!-- Footer -->
-<footer class="footer bg-white">
+<footer class="footer bg-white" id="footer">
   <div class="container">
     <div class="row">
       <div class="col-lg-6 h-100 text-center text-lg-left my-auto">

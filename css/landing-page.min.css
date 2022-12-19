@@ -213,6 +213,20 @@ button#mainForm {
   color: #fff;
 }
 
+.fbcolor {
+  color: #0695FF;
+}
+
+.fbbg {
+  background-color: #0695FF;
+  color: #fff;
+}
+
+.fbbg:hover {
+  background-color: #1778F2;
+  color: #fff;
+}
+
 @media (min-width: 768px) {
   #stickyButton, #stickyButton2 {
     display: none;
