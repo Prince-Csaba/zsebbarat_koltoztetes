@@ -304,7 +304,7 @@ button#mainForm {
   position: relative;
   background-color: #343a40;
   background: url(../img/bg-img.webp) no-repeat;
-  background-position: center 230px;
+  background-position: center center;
   background-size: cover;
   background-attachment: fixed;
   padding-top: 7rem;
