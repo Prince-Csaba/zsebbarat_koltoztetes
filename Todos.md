@@ -1,3 +1,5 @@
+szolgaltatasok - raktarozas, takatitas, tisztasagi festes
+
 Outline:none a buttonokra!!!! imputokra, azokra a mezőkre amikbe lehet írni, textarea,
 
 Honnan - irányítószám, utca
