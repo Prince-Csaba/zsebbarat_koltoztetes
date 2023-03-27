@@ -377,6 +377,6 @@ ul li a:hover {
 
 @media (max-width: 768px) {
   .packed {
-    background-image: url(/img/bepakolva_a.jpg);
+    background-image: url(../img/bepakolva_a.jpg);
   }
 }
