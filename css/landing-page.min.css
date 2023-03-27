@@ -370,3 +370,13 @@ ul li a:hover {
   color: white;
   text-decoration: none;
 }
+
+.packed {
+  background-image: url('/img/bepakolva_f.jpg');
+}
+
+@media (max-width: 768px) {
+  .packed {
+    background-image: url('/img/bepakolva_a.jpg');
+  }
+}
