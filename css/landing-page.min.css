@@ -66,8 +66,8 @@ header.masthead h1 {
 }
 
 .showcase .showcase-img {
-  min-height: 30rem;
-  background-size: cover;
+/*   min-height: 30rem;
+ */  background-size: cover;
   background-position: center;
 }
 
@@ -373,11 +373,29 @@ ul li a:hover {
 }
 
 .services {
+  width: 100vw;
+  height: 37.5vw;
   background-image: url(../img/szolgaltatasok_f.jpg);
+}
+
+@media (min-width: 1750px) {
+  .services {
+    width: 100vw;
+    height: 34vw;
+  }
+}
+
+@media (max-width: 990px) {
+  .services {
+    width: 100vw;
+    height: 75vw;
+  }
 }
 
 @media (max-width: 600px) {
   .services {
+    width: 100vw;
+    height: 133.33vw;
     background-image: url(../img/szolgaltatasok_a.jpg);
   }
 }
