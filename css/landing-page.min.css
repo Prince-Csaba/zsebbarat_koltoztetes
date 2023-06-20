@@ -89,6 +89,51 @@ header.masthead h1 {
   }
 }
 
+.rectangleBgImg {
+  width: 100vw;
+  height: 37.5vw;
+}
+
+.services {
+  background-image: url(../img/szolgaltatasok_f.jpg);
+}
+
+@media (min-width: 1750px) {
+  .rectangleBgImg {
+    width: 100vw;
+    height: 34vw;
+  }
+}
+
+@media (max-width: 990px) {
+  .rectangleBgImg {
+    width: 100vw;
+    height: 75vw;
+  }
+}
+
+@media (max-width: 600px) {
+  .rectangleBgImg {
+    width: 100vw;
+    height: 133.33vw;
+  }
+
+  .services {
+    background-image: url(../img/szolgaltatasok_a.jpg);
+  }
+}
+
+
+.packed {
+  background-image: url(../img/bepakolva_f.jpg);
+}
+
+@media (max-width: 768px) {
+  .packed {
+    background-image: url(../img/bepakolva_a.jpg);
+  }
+}
+
 .features-icons {
   padding-top: 7rem;
   padding-bottom: 7rem
@@ -372,41 +417,3 @@ ul li a:hover {
   text-decoration: none;
 }
 
-.services {
-  width: 100vw;
-  height: 37.5vw;
-  background-image: url(../img/szolgaltatasok_f.jpg);
-}
-
-@media (min-width: 1750px) {
-  .services {
-    width: 100vw;
-    height: 34vw;
-  }
-}
-
-@media (max-width: 990px) {
-  .services {
-    width: 100vw;
-    height: 75vw;
-  }
-}
-
-@media (max-width: 600px) {
-  .services {
-    width: 100vw;
-    height: 133.33vw;
-    background-image: url(../img/szolgaltatasok_a.jpg);
-  }
-}
-
-
-.packed {
-  background-image: url(../img/bepakolva_f.jpg);
-}
-
-@media (max-width: 768px) {
-  .packed {
-    background-image: url(../img/bepakolva_a.jpg);
-  }
-}
