@@ -62,12 +62,31 @@ header.masthead h1 {
 }
 
 .showcase .showcase-text {
-  padding: 3rem
+  padding: 0 4rem;
+}
+
+@media (min-width:1200px) {
+  .showcase .showcase-text {
+    padding: 4rem;
+  }
+}
+
+@media (max-width:900px) {
+  .showcase .showcase-text {
+    padding: 3rem;
+  }
+}
+
+@media (max-width:600px) {
+  .showcase .showcase-text {
+    padding: 2rem 1.5rem;
+  }
 }
 
 .showcase .showcase-img {
-/*   min-height: 30rem;
- */  background-size: cover;
+  /*   min-height: 30rem;
+ */
+  background-size: cover;
   background-position: center;
 }
 
@@ -76,9 +95,19 @@ header.masthead h1 {
   font-weight: 300;
 }
 
-/* ezért csúszik szét a szolgáltatásaink szöveg */
+@media (max-width:600px) {
+  .showcase .showcase-text li {
+    margin-left: -30px;
+  }
+}
 
-@media (min-width:768px) {
+@media (min-width:900px) and (max-width:992px) {
+  .showcase .showcase-text {
+    padding: 4rem;
+  }
+}
+
+@media (min-width:1200px) {
   .showcase .showcase-text {
     padding: 4rem;
   }
@@ -97,6 +126,23 @@ header.masthead h1 {
 .services {
   background-image: url(../img/szolgaltatasok_f.jpg);
 }
+
+.furniture {
+  background-image: url(../img/butorszereles_f.jpg);
+}
+
+.cargo {
+  background-image: url(../img/tehertaxi_f.jpg);
+}
+
+.paint {
+  background-image: url(../img/paint_f.jpg);
+}
+
+.store {
+  background-image: url(../img/store_f.jpg);
+}
+
 
 @media (min-width: 1750px) {
   .rectangleBgImg {
@@ -121,8 +167,29 @@ header.masthead h1 {
   .services {
     background-image: url(../img/szolgaltatasok_a.jpg);
   }
+
+  .furniture {
+    background-image: url(../img/butorszereles_a.jpg);
+  }
+
+  .cargo {
+    background-image: url(../img/tehertaxi_a.jpg);
+  }
+
+  .paint {
+    background-image: url(../img/paint_a.jpg);
+  }
+
+  .store {
+    background-image: url(../img/store_a.jpg);
+  }
 }
 
+@media (max-width: 600px) {
+  .team {
+    background-position: left center !important;
+  }
+}
 
 .packed {
   background-image: url(../img/bepakolva_f.jpg);
@@ -280,7 +347,9 @@ button#mainForm {
 }
 
 @media (min-width: 768px) {
-  #stickyButton, #stickyButton2 {
+
+  #stickyButton,
+  #stickyButton2 {
     display: none;
   }
 }
@@ -416,4 +485,3 @@ ul li a:hover {
   color: white;
   text-decoration: none;
 }
-
