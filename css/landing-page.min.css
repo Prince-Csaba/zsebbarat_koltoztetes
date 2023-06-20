@@ -67,7 +67,8 @@ header.masthead h1 {
 
 .showcase .showcase-img {
   min-height: 30rem;
-  background-size: cover
+  background-size: cover;
+  background-position: center;
 }
 
 .showcase .showcase-text li {
@@ -370,6 +371,17 @@ ul li a:hover {
   color: white;
   text-decoration: none;
 }
+
+.services {
+  background-image: url(../img/szolgaltatasok_f.jpg);
+}
+
+@media (max-width: 600px) {
+  .services {
+    background-image: url(../img/szolgaltatasok_a.jpg);
+  }
+}
+
 
 .packed {
   background-image: url(../img/bepakolva_f.jpg);
