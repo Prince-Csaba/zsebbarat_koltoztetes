@@ -334,7 +334,7 @@ button#mainForm {
 
 @media (max-width: 900px) and (orientation: landscape) {
   #stickyButton2 {
-    top: 68vh; 
+    top: 60vh; 
   }
 }
 
