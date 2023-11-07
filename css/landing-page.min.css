@@ -332,10 +332,14 @@ button#mainForm {
   }
 }
 
-@media (max-width: 900px) and (orientation: landscape) {
-  #stickyButton2 {
-    top: 60vh; 
+ @media (max-width: 900px) and (orientation: landscape) {
+  #stickyButton {
+    top: 60vh;
   }
+  #stickyButton2 {
+    top: 75vh; 
+  }
+
 }
 
 #stickyButton i {
